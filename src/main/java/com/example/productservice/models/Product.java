@@ -15,4 +15,5 @@ public class Product extends BaseModel{
     Double price;
     @ManyToOne(cascade = CascadeType.DETACH)
     Category category;
+    int qty;
 }
